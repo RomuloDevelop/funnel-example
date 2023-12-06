@@ -1,0 +1,30 @@
+.offer_item h1 {
+    text-align: center;
+}
+.offer_item .subscription {
+    font-size: .5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.offer_item .subscription label {
+    margin-left: 0.3rem;
+}
+
+.offer_item .offer_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 1rem;
+    width: 20rem;
+    font-size: 1.2rem;
+}
+
+.offer_item .offer_content p {
+    margin-top: 1rem;
+}
