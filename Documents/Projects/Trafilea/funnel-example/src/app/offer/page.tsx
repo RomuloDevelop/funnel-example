@@ -5,7 +5,7 @@ import OfferItem from "@/components/offer-item";
 
 const Offer = () => (
   <main className={styles.main}>
-    <OfferItem />
+    <OfferItem srcImage={"/underwear.webp"} />
   </main>
 );
 

@@ -5,7 +5,7 @@ import OfferItem from "@/components/offer-item";
 
 const CrossSell = () => (
   <main className={styles.main}>
-    <OfferItem />
+    <OfferItem src="/bra.webp" />
   </main>
 );
 

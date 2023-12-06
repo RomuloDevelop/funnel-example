@@ -7,7 +7,7 @@ import {
   EventsEnum,
 } from "funnel-builder-sidecar";
 
-const OfferItem = () => {
+const OfferItem = ({ srcImage }: any) => {
   const [{ name, product, available_subscription }, setInfo] = useState({
     name: "",
     product: "",
@@ -29,7 +29,7 @@ const OfferItem = () => {
         <h1>{name}</h1>
         <div className={styles.offer_content}>
           <Image
-            src={"/underwear.webp"}
+            src={srcImage}
             width={300}
             height={300}
             alt="underwear"
